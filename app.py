@@ -112,57 +112,37 @@ elif st.session_state.step == 3:
     st.header("El espejo del pasado: ¿por qué fallan los algoritmos?")
 
     st.write("""
-Los algoritmos aprenden a partir de datos del pasado. Este fenómeno puede
-generar lo que los investigadores llaman **sesgo algorítmico**.
-
-Sandra Mayson (2019) explica que cualquier sistema que predice el futuro
-utilizando datos históricos puede terminar reproduciendo las desigualdades
-del pasado.
+Un algoritmo no piensa por sí mismo; aprende analizando miles de datos del pasado. Aquí es donde surge el problema que los científicos llaman "sesgo algorítmico". Sandra Mayson (2019), una experta en el tema, lo explica de forma muy clara: 
+“El problema profundo es la naturaleza de la predicción misma. Toda predicción mira al pasado para hacer conjeturas sobre eventos futuros. En un mundo racialmente estratificado, cualquier método de predicción proyectará las desigualdades del pasado hacia el futuro”. 
+Es como si intentáramos usar un mapa antiguo para navegar por una ciudad que ha cambiado: seguiremos chocando con los mismos muros. Si en el pasado ciertos grupos sufrieron más arrestos por prejuicios sociales, el algoritmo asumirá que esas personas son "más peligrosas" por naturaleza. Neil y Zanger-Tishler (2025) explican que los registros de arrestos no son medidas neutrales, ya que personas negras con pocos delitos enfrentan un riesgo de arresto mucho mayor que personas blancas en la misma situación.
 """)
 
 
 # 4 DILEMA
 elif st.session_state.step == 4:
 
-    st.header("¿Precisión o justicia?")
+    st.header("¿Precisión o justicia? El dilema de la balanza")
 
     st.write("""
-Un sistema puede ser matemáticamente preciso, pero socialmente injusto.
-
-Miron et al. (2021) encontraron que algunos modelos pueden superar a expertos
-humanos en predicción, pero al mismo tiempo fallar en métricas de equidad para
-grupos protegidos como mujeres o personas extranjeras.
+A veces, un programa puede ser muy "preciso" matemáticamente, pero muy injusto socialmente. Miron et al. (2021) observaron que estos modelos pueden ser más potentes que los expertos humanos, pero "a expensas de no satisfacer métricas de justicia para grupos protegidos como extranjeros y mujeres". 
+Esto se traduce en errores con nombre y apellido: 
+• En el género: En sistemas como VioGén en España, Chaverra Mena (2023) describe casos donde clasificar a alguien como "riesgo bajo" falló en proteger a mujeres que luego fueron asesinadas. 
+• En la raza: Fernández-Prados et al. (2025) indican que existen "disparidades en métricas de equidad, tales como diferencias en sensibilidades y falsos positivos entre grupos raciales". Esto significa que el algoritmo suele dar "falsas alarmas" mucho más seguido cuando analiza a personas de ciertas etnias.
 """)
 
 
-# 5 EJEMPLOS
-elif st.session_state.step == 5:
-
-    st.header("Errores con consecuencias reales")
-
-    st.write("""
-En sistemas de evaluación de riesgo de violencia de género se han documentado
-casos donde clasificaciones de riesgo bajo terminaron en tragedias.
-
-También se han identificado diferencias en falsos positivos entre grupos
-raciales, lo que significa que algunos grupos reciben más alertas injustificadas.
-""")
-
-
-# 6 FUTURO
+# 5 FUTURO
 elif st.session_state.step == 6:
 
     st.header("¿Hacia dónde vamos?")
 
     st.write("""
-La tecnología puede ser una aliada poderosa, pero no es neutral.
-
-Para evitar injusticias es necesario que los sistemas de IA sean transparentes
-y que incluyan perspectivas sociales y de género desde su diseño.
+La tecnología puede ser una gran aliada, pero no es mágica. Para que la justicia sea realmente justa, necesitamos que estos sistemas sean transparentes y que incluyan una "perspectiva de género" desde el momento en que se escriben sus códigos (Montesinos García, 2023). 
+Como advierte Skeem y Lowenkamp (2020), el costo de no corregir estos errores lo pagan las comunidades que ya son vulnerables. La ciencia nos dice que la IA solo será justa si nosotros, los humanos, nos esforzamos por enseñarle a serlo.
 """)
 
 
-# 7 REFERENCIAS
+# 6 REFERENCIAS
 elif st.session_state.step == 7:
 
     st.header("Referencias")
