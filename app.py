@@ -55,8 +55,6 @@ h1,h2,h3 {
 # 0 PORTADA
 if st.session_state.step == 0:
 
-    st.markdown('<div class="bloque">', unsafe_allow_html=True)
-
     st.title("¿Pueden los algoritmos heredar nuestros prejuicios?")
     st.subheader("El desafío de la justicia digital")
 
