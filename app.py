@@ -130,7 +130,7 @@ Esto se traduce en errores con nombre y apellido:
 
 
 # 5 FUTURO
-elif st.session_state.step == 7:
+elif st.session_state.step == 5:
 
     st.header("¿Hacia dónde vamos?")
 
