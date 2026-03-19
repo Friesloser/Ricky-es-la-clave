@@ -55,8 +55,6 @@ h1,h2,h3 {
 # 0 PORTADA
 if st.session_state.step == 0:
 
-    st.markdown('<div class="bloque">', unsafe_allow_html=True)
-
     st.title("¿Pueden los algoritmos heredar nuestros prejuicios?")
     st.subheader("El desafío de la justicia digital")
 
@@ -132,7 +130,7 @@ Esto se traduce en errores con nombre y apellido:
 
 
 # 5 FUTURO
-elif st.session_state.step == 6:
+elif st.session_state.step == 7:
 
     st.header("¿Hacia dónde vamos?")
 
@@ -143,7 +141,7 @@ Como advierte Skeem y Lowenkamp (2020), el costo de no corregir estos errores lo
 
 
 # 6 REFERENCIAS
-elif st.session_state.step == 7:
+elif st.session_state.step == 6:
 
     st.header("Referencias")
 
