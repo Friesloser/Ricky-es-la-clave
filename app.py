@@ -9,7 +9,7 @@ if "step" not in st.session_state:
     st.session_state.step = 0
 
 def siguiente():
-    if st.session_state.step < 7:
+    if st.session_state.step < 6:
         st.session_state.step += 1
 
 def anterior():
